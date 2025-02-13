@@ -7,7 +7,7 @@ export const login = createAsyncThunk(
   async ({ email, password }, { rejectWithValue }) => {
     try {
       const response = await AuthService.login(email, password);
-      return response; // expecting { token: '...', ... }
+      return response;
     } catch (error) {
       return rejectWithValue(error.response?.data || error.message);
     }
