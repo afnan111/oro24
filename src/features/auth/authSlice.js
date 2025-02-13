@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import AuthService from './AuthService';
 
-// Async thunk to login
+
 export const login = createAsyncThunk(
   'auth/login',
   async ({ email, password }, { rejectWithValue }) => {
@@ -20,7 +20,7 @@ export const authSlice = createSlice({
     token: localStorage.getItem('token') || null,
     loading: false,
     error: null,
-    user: null, // if you want to store user info
+    user: null, 
   },
   reducers: {
     logout: (state) => {
