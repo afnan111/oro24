@@ -37,7 +37,7 @@ const LoginForm = () => {
   return (
     <div className="auth-container" style={{ backgroundImage: `url('https://s3-alpha-sig.figma.com/img/34ea/2a52/4d2e1b427c47d7ba71034a89efe6524f?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=EDmt1SbdLmVgJHhIVc-sUveDey9UWsMa1ckG0EF17~6wpSOy-kFK8Jkvw~alG85hfjYpVbF3XuN4O2THgU9i0QZzY0g0aefEcCPUCIxgi5c6q8WnFBgZSGI4IRCd~4HOcUN6dNmpHlnzG0xm1VCy5l63vLqcz3BEwbEytmP6zLBjrLJ4LL-~a-YoZq3NJpuUvCvo2Nm5JbnpiREc~7Zg6n73V3Uf2IVXCeQrCY2E~0Vv~CNnW7kEA5VVHSLp6zqn4CKqxlxvzZ0EpFs8u8HSC9dbqvbE2FrqmZqT9fxtOxgHrljaUIyjgAHXMIhI8f1F0fm8kLjm5OgesPd-9pGRjQ__')` }}>
       <div className="auth-form-wrapper">
-        {/* Logo - replace with your actual image */}
+        
         <img
           src="https://oro24-media.s3.me-south-1.amazonaws.com/assets/Oro-logo-white.png"
           alt="ORO24 Logo"
