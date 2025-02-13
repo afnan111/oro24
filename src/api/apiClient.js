@@ -8,7 +8,7 @@ const apiClient = axios.create({
   },
 });
 
-// Optional: attach token from localStorage if you like
+
 apiClient.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
   if (token) {
