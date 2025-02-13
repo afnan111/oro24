@@ -5,7 +5,7 @@ export const fetchAllInventory = createAsyncThunk(
   'inventory/fetchAllInventory',
   async (_, { rejectWithValue }) => {
     try {
-      // You can pass parameters if needed. For now, we hardcode as per your example.
+    
       const data = await InventoryService.fetchAllInventory({
         ProjectID: 1,
         apt_type: 'All',
@@ -22,7 +22,7 @@ export const fetchAllInventory = createAsyncThunk(
 const inventorySlice = createSlice({
   name: 'inventory',
   initialState: {
-    items: [],     // Ensure items is always an array
+    items: [],     
     loading: false,
     error: null,
     selectedUnits: [],
@@ -48,7 +48,7 @@ const inventorySlice = createSlice({
       })
       .addCase(fetchAllInventory.fulfilled, (state, action) => {
         state.loading = false;
-        state.items = action.payload; // adapt to match the actual API response shape
+        state.items = action.payload; 
       })
       .addCase(fetchAllInventory.rejected, (state, action) => {
         state.loading = false;
