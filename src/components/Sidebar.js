@@ -25,7 +25,7 @@ const Sidebar = () => {
             <i className="fas fa-building"></i> Units
           </NavLink>
         </li>
-        {/* Add more links as needed */}
+ 
       </ul>
     </div>
   );
