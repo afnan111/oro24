@@ -8,8 +8,7 @@ body, html {
   }
   
   .auth-container {
-    /* Full height background with building images, etc. */
-    /* background: url('https://via.placeholder.com/1200x800?text=Building+Background') no-repeat center center; */
+ 
     background-size: cover;
     min-height: 100vh;
     display: flex;
