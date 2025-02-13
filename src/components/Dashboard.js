@@ -17,15 +17,7 @@ const Dashboard = () => {
       <p>Your token: {token}</p>
       <button onClick={handleLogout}>Logout</button>
 
-      {/* 
-        You can show the inventory, blocks, floors, etc. here 
-        by calling the relevant endpoints from your slice or service:
-        
-        e.g. 
-        useEffect(() => {
-          dispatch(fetchInventory(...));
-        }, [dispatch]);
-      */}
+    
     </div>
   );
 };
