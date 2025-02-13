@@ -32,10 +32,10 @@ const inventorySlice = createSlice({
     toggleUnitSelection: (state, action) => {
       const unitId = action.payload;
       if (state.selectedUnits.includes(unitId)) {
-        // If already selected, remove it
+        
         state.selectedUnits = state.selectedUnits.filter((id) => id !== unitId);
       } else {
-        // Otherwise, add it
+      
         state.selectedUnits.push(unitId);
       }
     },
