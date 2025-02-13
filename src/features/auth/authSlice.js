@@ -39,7 +39,7 @@ export const authSlice = createSlice({
       .addCase(login.fulfilled, (state, action) => {
         state.loading = false;
         state.token = action.payload.token;
-        state.user = action.payload.user || null; // if the API returns user data
+        state.user = action.payload.user || null; 
         localStorage.setItem('token', action.payload.token);
       })
       .addCase(login.rejected, (state, action) => {

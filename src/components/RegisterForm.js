@@ -7,7 +7,7 @@ const RegisterForm = () => {
     email: '',
     password: '',
     confirmPassword: '',
-    // add any other fields needed
+  
   });
 
   const handleChange = (e) => {
@@ -20,14 +20,13 @@ const RegisterForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call your register endpoint here
-    // e.g., AuthService.register(formData)
+    
   };
 
   return (
     <div className="auth-container">
       <div className="auth-form-wrapper">
-        {/* Logo */}
+       
         <img
           src="https://oro24-media.s3.me-south-1.amazonaws.com/assets/Oro-logo-white.png"
           alt="ORO24 Logo"

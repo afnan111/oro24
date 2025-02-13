@@ -11,12 +11,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Example: If you have a login route */}
+     
         <Route path="/" element={<Login />} />
- 
-        {/* Example: If you have a login route */}
+  
         <Route path="/Register" element={<RegisterForm />} />
-        {/* Admin / Dashboard route */}
+ 
         <Route
           path="/admin"
           element={
